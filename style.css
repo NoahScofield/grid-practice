@@ -1,0 +1,103 @@
+.wrapper {
+    height: 1920px;
+    width: 1080px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: minmax(auto,auto);
+    grid-template-rows: minmax(auto,auto);
+    grid-gap: 20px;
+}
+
+.itema {
+    background-color: lightskyblue;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: .5;
+    grid-row-end: 1;
+}
+
+.itemb {
+    background-color: mediumpurple;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.itemc {
+    background-color: darkgreen;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.itemd { background-color: royalblue;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+
+.iteme { background-color: darkgoldenrod;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+.itemf { background-color: green;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+.itemg { background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+}
+
+.itemh { background-color: yellow;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 10;
+
+}
+
+.itemi { background-color: limegreen;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+}
+.itemj { background-color: yellowgreen;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+}
+
+.itemk { background-color: deepskyblue;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 10;
+
+}
+.iteml { background-color: blueviolet;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start:10;
+    grid-row-end: 11;
+
+}
